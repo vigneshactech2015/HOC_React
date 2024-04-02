@@ -7,7 +7,7 @@ function withStyles(Component) {
   }
 }
  
-const Button = () = <button>Click me!</button>
+const Button = () => <button>Click me!</button>
 const Text = () => <p>Hello World!</p>
  
 const StyledButton = withStyles(Button)
