@@ -1,4 +1,4 @@
-// HOC is acutally a function which accepts Component as parameter and returns Component with additional functionality
+// HOC is actually a function which accepts Component as parameter and returns Component with additional functionality
 
 function withStyles(Component) {
   return props => {
