@@ -7,8 +7,8 @@ function withStyles(Component) {
   }
 }
  
-const Button = () => <button>Click me!</button>
-const Text = () => <p>Hello World!</p>
+const Button = (props) => <button {...props}>Click me!</button>
+const Text = (props) => <p {...props}>Hello World!</p>
  
 const StyledButton = withStyles(Button)
 const StyledText = withStyles(Text)
